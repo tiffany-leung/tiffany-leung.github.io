@@ -1,0 +1,39 @@
+body {
+		background-color: #f7eab2; 
+
+	}
+	h1 {
+		text-align: center; 
+		font-family: 'Goudy Old Style';
+		font-size: 40px; 
+		color: #60acf7;
+	}
+	h2  {
+		text-align: center;
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 15px; 
+	}
+	p {
+		text-align: center; 
+		font-family:'Cormorant Garamond', serif ;
+		font-size: 20px;
+		line-height: 2em;
+		cursor: pointer;
+	}
+	#special {
+	font-weight: bold;
+	color:#2a92f9;
+	}	
+	
+	a {
+		color: #f79edc;
+	}
+	a:hover {
+		color: white;
+	}
+	a:visited {
+		color:#b77bf7;
+	}
+	a: active {
+		color: 
+	}
