@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f49542;
+    margin: 0;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("fire-11.jpg");
+    overflow-x: hidden;
+    padding-left:20px;
+    color:white;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    font-family: "Orator Std", sans-serif; 
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: rgba(252, 208, 98, 50);
+    color: black;
+}
+.sidenav a:visited {
+    color: red;
+}
+
+/* Style the content */
+h1{
+    font-family: 'Rozha One', serif;
+    font-size: 400px
+    font-weight: bold;
+    color: #cc3300;
+}
+h2 {
+    font-family: 'Rozha One', serif;
+    font-size: 20px;
+    color: brown;
+}
+.content {
+    display: inline-block;
+    width: 800px;
+    margin-left: 200px;
+    padding-left: 25px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+.content:hover {
+    color: #f49542;
+}
+.change {
+    font-family: 'Rozha One', serif;
+    color: #cc1100;
+    font-weight: bold;
+}

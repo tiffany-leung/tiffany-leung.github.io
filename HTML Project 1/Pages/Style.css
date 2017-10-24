@@ -4,7 +4,7 @@ body {
 	}
 	h1 {
 		text-align: center; 
-		font-family: 'Goudy Old Style';
+		font-family: "Goudy Old Style", serif;
 		font-size: 40px; 
 		color: #60acf7;
 	}
