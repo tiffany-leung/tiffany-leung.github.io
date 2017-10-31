@@ -1,0 +1,40 @@
+body{
+	text-align: right;
+	background-image: : url("c9566bf08c5703c8276c3675110c71b6.jpg");
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	font-family: 'Reenie Beanie', cursive;
+}
+.reversepoem {
+	text-align: right;
+	margin-right: 40%;
+}
+p {
+	color: #caccce ;
+	font-size: 20px;
+}
+.headers {
+	float: right;
+	display: fixed;
+	margin-right: 50px;
+}
+.date {
+	font-size: 30px;
+	color: red;
+}
+.author {
+	font-size: 50px;
+	color: red;
+}
+a {
+	text-decoration: underline;
+	font-size: 70px;
+	color: red;
+}
+a:hover {
+	color: yellow;
+}
+a: visited {
+	color: red;
+}

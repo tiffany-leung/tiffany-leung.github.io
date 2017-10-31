@@ -1,0 +1,25 @@
+body {
+	font-family:'Cutive Mono', monospace;
+}
+p { 
+	text-align: center;
+ }
+ button {
+ 	margin-left: 50%;
+
+ }
+.open {
+	float:right;	
+	color: white;
+}
+.open: hover {
+	color: red;
+	cursor: pointer;
+}
+.open: visited {
+	color: red;
+}
+
+
+
+
