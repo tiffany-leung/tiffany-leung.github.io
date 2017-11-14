@@ -1,35 +1,47 @@
 
-var tribes = "Reuben, Simeon, Levi, Judah, Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Joseph, Benjamin"
+var namestring = "Reuben, Simeon, Levi, Judah, Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Joseph, Benjamin"
 
-console.log(tribes)
+console.log(namestring)
+
+var exampleArray = [1, 2, 3, 5, "hi", null, true]
+
+console.log(exampleArray)
+console.log(exampleArray.toString() )
+
+var nameArray = namestring.split(",")
+console.log(nameArray)
 
 
-var tribesArray = tribes.split(",")
-console.log(tribesArray)
+var container = document.querySelector(".output ul")
+console.log (container)
 
+// for(var i = 0; i < nameArray.length; i++) {
+// 	console.log(nameArray[i])
+// }
 
-var container = document.querySelector(".tribes ul")
-
-
-tribesArray.forEach(function(theElement, itsIndex, theOriginalArray) {
+nameArray.forEach(function(theElement, itsIndex, theOriginalArray) {
 	console.log(theElement + " is in position " + itsIndex)
 })
 
 
-tribesArray.forEach(make_a_list);
+nameArray.forEach(make_a_list);
 
 
 function make_a_list(el, ix) {
 	var listItem = document.createElement("li")
 
-	listItem.textContent = theElement
+	listItem.textContent = el 
 
 	container.appendChild(listItem)
 }
 
 
-var tribenames = document.querySelectorAll(".tribes ul li")
-console.log(tribenames)
+var names = document.querySelectorAll(".output ul li")
+console.log(names)
 
 
+names.forEach(changeBackground)
 
+function changeBackground(el) {
+	el.style.backgroundColor = "rgba(0,0,0,0)";
+}
