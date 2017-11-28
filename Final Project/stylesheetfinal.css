@@ -1,0 +1,108 @@
+.intro{
+	position: absolute;
+	text-align: left;
+	background-image: url("cupboard door.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+    width: 30%;
+    height: 100px;
+   	background-color: #d2f9b1;
+    padding: 10px;
+    left: 30%;
+    transform: translateX(-50%);
+    bottom: 70%;
+}
+
+.intro a {
+	padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55%;
+}
+
+.pigeonhole {
+	background-image: url("Shelf.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.tin {
+	position: absolute;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+    width: 60px;
+    height: 40px;
+   	background-color: white;
+    padding: 10px;
+    left: 13%;
+    bottom: 48%;
+}
+.musicbox {
+	position: absolute;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+    width: 80px;
+    height: 40px;
+   	background-color: white;
+    padding: 10px;
+    left: 46%;
+    bottom: 48%;
+}
+img {
+	position: absolute;
+	margin: auto;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    left: 27%;
+    bottom: 50%;
+}
+.toy {
+	position: absolute;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+    width: 80px;
+    height: 40px;
+   	background-color: white;
+    padding: 10px;
+    left: 80%;
+    bottom: 48%;
+ }
+
+ .thecoin {
+	position: absolute;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+    width: 80px;
+    height: 40px;
+   	background-color: white;
+    padding: 10px;
+    left: 13%;
+    bottom: 3%;
+ }
+.doorway {
+	position: absolute;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+    width: 80px;
+    height: 40px;
+   	background-color: white;
+    padding: 10px;
+    left: 46%;
+    bottom: 3%; 
+}
+
+.themusicbox {
+	background-image: url("musicboxmechanics.png");
+	background-size: 100% 
+	position: absolute;
+	padding: 10px;
+	left: 50%;
+	bottom: 50%;
+}
