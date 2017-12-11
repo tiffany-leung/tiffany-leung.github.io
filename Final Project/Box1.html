@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title> Box 1 </title>
+	<!-- <charset="utf-8"> -->
 	<link rel="stylesheet" type="text/css" href="stylesheetfinal.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 </head>
-<body>
+
+<body class="Box1">
+	
+	<div class="tin_img">
+		<img id="opentin" src="tin_open.png" align="middle">
+	</div>
+
+	<div class="coins">
+		<a href="Singapore_page.html"> <img id="SGcoin" src="SGcoin.png"> </a>
+		<img id="HKcoin" src="HKcoin.png">
+	<a href="Shanghai_page.html">
+		<img id="RMBcoin" src="RMBcoin.png">
+	</a>
+		<img id="UScoin" src="UScoin.png">
+	</div>
+
+<button class="popup" onclick="coinsFunction()"> What's this?
+  <span class="popuptext" id="CoinsPopup"> Click on the coins to take a trip</span>
+</button>
+
+<button class="HKpopup" onclick="HKFunction()"> What about Hong Kong? <span class="HKpopuptext" id="PopupHK"> Hong Kong can be considered as my 4th home, even when I have never lived there. It is the place where my parents grew up and also where my own heritage lies; so you can say that I am both a foreigner and native in Hong Kong. </span>
+</button>
+
+<button class="USpopup" onclick="USFunction()"> How about the US? <span class="USpopuptext" id="PopupUS"> When I first got the States, I was really confused about all these coins and their values. Once, I even had to get help from the lady at the cash register to pick out the amount I had to pay. Now, I am slowing integrating into the New York society; yet, I have so much more to explore. </span>
+</button>
+
+<div class="homebutton1">
+	<a href="Inside.html"> Go Back to Pigeon Hole </a>
+</div>
 
 
 </body>
+
+<script type="text/javascript" src="javascript.js"></script>
+
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> The Music Box </title>
+	<link rel="stylesheet" type="text/css" href="stylesheetfinal.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+
+<body class="Box2">
+
+<img src="musicboxinterior.png">
+
+
+<audio id="myAudio"> </audio>
+
+<div class="Button1">
+<button id="play1" onclick="PlaySound()"> Play the music box </button>
+</div>
+
+<div class="Button2">
+<button id="pause1" onclick="PauseSound()"> Pause </button>
+</div>
+
+<!-- Video button -->
+
+<div class="CDimg">
+	<img src="CD.png"> 
+	<button id="popupvideo">  A CD?  </button>
+</div>
+
+<!-- Video -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <video width="800" height="600" controls>
+  		<source src="babyvideo.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<div class="homebutton2">
+<a href="Inside.html"> Back to Pigeon Hole </a>
+</div>
+
+</body>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+</html>
