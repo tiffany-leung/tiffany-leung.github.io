@@ -130,27 +130,6 @@ function uwcFunction5() {
     uwcpopup5.classList.toggle("uwcshow5");
 }
 
-//St.Anthony_uniform.html
-function sacFunction() {
-    var sacpopup = document.getElementById("myPopupsac")
-    sacpopup.classList.toggle("sacshow");
-}
-function sacFunction1() {
-    var sacpopup1 = document.getElementById("myPopupsac1")
-    sacpopup1.classList.toggle("sacshow1");
-}
-function sacFunction2() {
-    var sacpopup2 = document.getElementById("myPopupsac2")
-    sacpopup2.classList.toggle("sacshow2");
-}
-function sacFunction3() {
-    var sacpopup3 = document.getElementById("myPopupsac3")
-    sacpopup3.classList.toggle("sacshow3");
-}
-function sacFunction4() {
-    var sacpopup4 = document.getElementById("myPopupsac4")
-    sacpopup4.classList.toggle("sacshow4");
-}
 //SSIS_uniform.html
 function ssisFunction() {
     var ssispopup = document.getElementById("myPopupssis")
