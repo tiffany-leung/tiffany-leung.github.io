@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  font-family: "Helvetica";
+}
+
+/* IDs */
+#good {
+  padding: 10px;
+  background-color: tan;
+  color: rgb(102, 64, 53);
+  text-align:center;
+}
+
+#evil {
+  padding:10px;
+  background-color: rgb(102, 64, 53);
+  color: beige;
+  text-align: center;
+}
+#evil h1 {
+  background-color: rgb(102, 64, 53);
+}
+
+/* Class */
+.material {
+  color: chocolate;
+}
+.textile {
+  color: beige;
+}
+
+/* Normal tags  */
+h1 {
+  background-color: beige;
+  border: 5px dotted tan;
+  color: tan;
+}
+
+h2 {
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+a{
+  font-size: 48px;
+  color:beige;
+}
+
+a:hover {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+img {
+  width:300px;
+  height:400px;
+  position: relative;
+}
