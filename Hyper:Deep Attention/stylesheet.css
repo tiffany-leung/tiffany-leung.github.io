@@ -1,0 +1,422 @@
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+body {
+  background-image: url("paper_by_francy84.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+.next a{
+  padding-left: 90%;
+  top:80%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.back a{
+  padding-left: 10%;
+  top:80%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+
+.homebuttons a{
+  padding-left: 10%;
+  top:10%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+
+.title-page h1{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 48px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 11ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(11, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title-page h2 {
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 36px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 22ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(22, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.enter a{
+  margin:0 auto;
+  padding-left: 50%;
+  font-family: 'Cutive Mono', monospace;
+  font-size:20px;
+  color: grey;
+}
+
+.enter a:hover{
+  border: 2px;
+  border-color:black;
+}
+
+
+.poem-names {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size:20px;
+  margin:0 auto;
+  padding-top: 100px;
+  padding-left: 40%;
+}
+.poem-names a{
+  color:grey;
+}
+.author-names {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size:20px;
+  margin:0 auto;
+  padding-top: 100px;
+  padding-left: 40%;
+}
+
+.author-names a{
+  color:grey;
+}
+
+.author-link a{
+  font-family:'Cutive Mono', monospace;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 45%;
+  color: grey;
+}
+
+.author-link a:hover{
+  color: white;
+}
+.author-link a:visited{
+  color:grey;
+}
+
+.poems-link a{
+  font-family: 'Cutive Mono', monospace;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 45%;
+  color: grey;
+}
+.poems-link a:hover{
+  color: white;
+}
+.poems-link a:visited{
+  color:grey;
+}
+
+.homepage-home a{
+  font-family: 'Cutive Mono', monospace;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 45%;
+  color: grey;
+}
+.title-poems h1{
+  padding-left:40%;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 11ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(11, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title-authors h1{
+  padding-left:40%;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(15, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title1 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(15, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title1 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(15, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.poem-text h4 {
+  margin:0 auto;
+  padding-left: 35%;
+  padding-top: 20px;
+	font-family: 'Cutive Mono', monospace;
+  font-size:12px;
+  color: grey;
+}
+
+.poem-text p{
+  margin:0 auto;
+  padding-left: 35%;
+  padding-top:10px;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  color: rgba(0,0,0,0);
+}
+.poem-text p:hover{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  color: black;
+}
+.change {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  color: black;
+}
+.next-matins a{
+  padding-left: 75%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.back-matins a{
+  padding-left: 10%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+
+.title2 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 10ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(10, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title2 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 16ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(16, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title3 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 14ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(14, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title3 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 13ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(13, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title4 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 8ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(8, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title4 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 13ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(13, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title5 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width:4;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(4, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title5 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(15, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title6 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 17ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(17, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title6 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 13ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(13, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title7 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 8ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(8, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title7 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 13ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(13, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title8 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 13ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(13, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title8 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(15, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.title9 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 24ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(24, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+.title9 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	border-right: .1em solid black;
+	width: 16.5em;
+	width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(15, end),
+	           blink-caret .5s step-end infinite alternate;
+}
