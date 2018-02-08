@@ -1,0 +1,296 @@
+body {
+  background-image: url("blackpaper.jpg");
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.next a{
+  padding-left: 90%;
+  top:80%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.next a:hover{
+  color:white;
+}
+.back a{
+  padding-left: 10%;
+  top:80%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.back a:hover {
+  color:white;
+}
+
+.homebuttons a{
+  padding-left: 10%;
+  top:10%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.homebuttons a:hover{
+  color:white;
+}
+
+.title-page h1{
+  margin:0 auto;
+  padding-left: 40%;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 48px;
+}
+.title-page h2 {
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 36px;
+  padding-left: 40%;
+}
+
+.enter a{
+  margin:0 auto;
+  padding-left: 50%;
+  font-family: 'Cutive Mono', monospace;
+  font-size:20px;
+  color: grey;
+}
+
+.enter a:hover{
+  border-color:white;
+}
+
+
+.poem-names a{
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 35%;
+  color: grey;
+  list-style-type: none;
+}
+.poem-names a:hover{
+  color:white;
+}
+.author-names a{
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 35%;
+  color: grey;
+  list-style-type: none;
+}
+
+.author-names a:hover{
+  color: white;
+}
+
+.author-link a{
+  font-family:'Cutive Mono', monospace;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 40%;
+  color: grey;
+}
+
+.author-link a:hover{
+  color: white;
+}
+.author-link a:visited{
+  color:grey;
+}
+
+.poems-link a{
+  font-family: 'Cutive Mono', monospace;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 40%;
+  color: grey;
+}
+.poems-link a:hover{
+  color: white;
+}
+.poems-link a:visited{
+  color:grey;
+}
+
+.homepage-home a{
+  font-family: 'Cutive Mono', monospace;
+  font-size:20px;
+  margin:0 auto;
+  padding-left: 40%;
+  color: grey;
+}
+
+.homepage-home a:hover{
+  color: white;
+}
+.title-poems h1{
+  padding-left:40%;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+}
+
+.title-authors h1{
+  padding-left:40%;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+}
+
+.title1 h2{
+  margin:0 auto;
+  padding-left:40%;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+}
+.title1 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.poem-text h4 {
+  margin:0 auto;
+  padding-left: 35%;
+  padding-top: 20px;
+	font-family: 'Cutive Mono', monospace;
+  font-size:12px;
+  color: white;
+}
+
+.poem-text p{
+  margin:0 auto;
+  padding-left: 35%;
+  padding-top:10px;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  color: white;
+}
+
+.next-matins a{
+  padding-left: 75%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.next-matins a:hover{
+  color:white;
+}
+.back-matins a{
+  padding-left: 10%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+.back-matins a:hover{
+  color: white;
+}
+
+.title2 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title2 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title3 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title3 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title4 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title4 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title5 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title5 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title6 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title6 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title7 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title7 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title8 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title8 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+  padding-left:40%;
+}
+
+.title9 h2{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  padding-left:40%;
+}
+.title9 h3{
+  margin:0 auto;
+	font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+	padding-left:40%;
+}
