@@ -158,7 +158,7 @@ body {
 .title1 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 15ch;
@@ -170,7 +170,7 @@ body {
 .title1 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 15ch;
@@ -194,18 +194,16 @@ body {
   padding-left: 35%;
   padding-top:10px;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 20px;
+  font-size: 24px;
   color: rgba(0,0,0,0);
 }
 .poem-text p:hover{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 20px;
-  color: black;
+  color: blaeck;
 }
 .change {
   font-family: 'Cutive Mono', monospace;
-  font-size: 20px;
   color: black;
 }
 .next-matins a{
@@ -224,7 +222,7 @@ body {
 .title2 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 10ch;
@@ -236,7 +234,7 @@ body {
 .title2 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 16ch;
@@ -249,7 +247,7 @@ body {
 .title3 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 14ch;
@@ -261,7 +259,7 @@ body {
 .title3 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 13ch;
@@ -274,7 +272,7 @@ body {
 .title4 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 8ch;
@@ -286,7 +284,7 @@ body {
 .title4 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 13ch;
@@ -299,7 +297,7 @@ body {
 .title5 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 4ch;
@@ -311,7 +309,7 @@ body {
 .title5 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 15ch;
@@ -324,7 +322,7 @@ body {
 .title6 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 17ch;
@@ -336,7 +334,7 @@ body {
 .title6 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 13ch;
@@ -349,7 +347,7 @@ body {
 .title7 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 8ch;
@@ -361,7 +359,7 @@ body {
 .title7 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 13ch;
@@ -374,7 +372,7 @@ body {
 .title8 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 13ch;
@@ -386,7 +384,7 @@ body {
 .title8 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 15ch;
@@ -399,7 +397,7 @@ body {
 .title9 h2{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 24ch;
@@ -411,7 +409,7 @@ body {
 .title9 h3{
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
-  font-size: 24px;
+  font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
 	width: 15ch;
