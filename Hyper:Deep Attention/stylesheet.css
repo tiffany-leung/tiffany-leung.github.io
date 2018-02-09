@@ -302,7 +302,7 @@ body {
   font-size: 32px;
 	border-right: .1em solid black;
 	width: 16.5em;
-	width:4;
+	width: 4ch;
 	white-space: nowrap;
 	overflow: hidden;
 	-webkit-animation: typing 4s steps(4, end),
