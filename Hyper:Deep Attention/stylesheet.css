@@ -129,6 +129,10 @@ body {
   padding-left: 45%;
   color: grey;
 }
+.homepage-home a:hover {
+  color: white;
+}
+
 .title-poems h1{
   padding-left:40%;
 	font-family: 'Cutive Mono', monospace;
@@ -189,7 +193,7 @@ body {
   color: grey;
 }
 
-.poem-text p{
+.poem-text p {
   margin:0 auto;
   padding-left: 35%;
   padding-top:10px;
@@ -197,7 +201,7 @@ body {
   font-size: 24px;
   color: rgba(0,0,0,0);
 }
-.poem-text p:hover{
+.poem-text p:hover {
   margin:0 auto;
 	font-family: 'Cutive Mono', monospace;
   color: black;

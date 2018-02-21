@@ -1,0 +1,32 @@
+img {
+  width: 300px;
+}
+
+/* DISPLAY ELEMENTS
+display: block; --> able to adjust width and height of the element
+display: none; / visibility: none; / opacity: 0%;
+display: inline; --> lines up objects on the page next to each other
+for inline displays --> cannot set width and height because they are already set */
+
+/* POSITION ELEMENTS
+position: relative;
+Position: absolute;
+position: fixed; */
+
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+.pullquote {
+  display: inline;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.pullquote p{
+  float: right;
+  font-size: italic;
+  font-size: 10px;
+
+}
