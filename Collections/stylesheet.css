@@ -1,0 +1,1793 @@
+body {
+  background-color: #fff3dd;
+  font-family: 'Poiret One', cursive;
+}
+
+/* index.html */
+.title h1{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top:5%;
+  font-size: 38px;
+}
+.enter {
+  padding: 10px;
+}
+.enter img{
+  display: inline;
+  height: 50%;
+  width: 50%;
+  margin:0 auto;
+  padding-left: 25%;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.enter img:hover {
+  cursor:pointer;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.text h2{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  top:20px;
+}
+
+/* homepage.html */
+#Foragers1 img{
+  position: absolute;
+  height:200px;
+  width:200px;
+  transform: rotate(-26deg);
+  right:350px;
+  top:700px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Foragers1 img:hover{
+  height:205px;
+  width:205px;
+}
+#T-amori1 img{
+  position: absolute;
+  height:220px;
+  width:340px;
+  transform: rotate(-13deg);
+  left:100px;
+  top:700px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#T-amori1 img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+#Sosta1 img{
+  position: relative;
+  height:40%;
+  width: 40%;
+  transform: rotate(30deg);
+  left:50px;
+  top:200px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Sosta1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Glossier1 img{
+  position: relative;
+  height:35%;
+  width:35%;
+  transform: rotate(-5deg);
+  left:150px;
+  top:100px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Glossier1:hover img {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Spot1 img{
+  position: relative;
+  height:25%;
+  width: 25%;
+  transform: rotate(-45deg);
+  top:20px;
+  right:0px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#Spot1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#Milkbar1 img{
+  position: relative;
+  height:25%;
+  width: 25%;
+  transform: rotate(10deg);
+  left:40px;
+  top:180px;
+  z-index:1;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Milkbar1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Laduree1 img{
+  position: relative;
+  height:15%;
+  width:15%;
+  transform: rotate(28deg);
+  right: 700px;
+  bottom: 350px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Laduree1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#MJ1 img{
+  position: relative;
+  height:30%;
+  width:30%;
+  transform: rotate(-33deg);
+  left:24px;
+  top:-175px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#MJ1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+#MaisonKayser1 img{
+  position: relative;
+  height:25%;
+  width:25%;
+  transform: rotate(-30deg);
+  left:450px;
+  bottom: 650px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#MaisonKayser1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+#Beacons1 img{
+  position: relative;
+  height:25%;
+  width:25%;
+  transform: rotate(-40deg);
+  left:400px;
+  top:-10px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Beacons1:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Citycakes1 img{
+  position: relative;
+  height:18%;
+  width:18%;
+  transform: rotate(27deg);
+  left:100px;
+  top:120px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Citycakes1:hover img {
+  height:18.5%;
+  width:18.5%;
+}
+
+/* Dropdown */
+.dropbtn img {
+  position: absolute;
+  display: inline-block;
+  height:50px;
+  width: 50px;
+  right: 15px;
+  top: 10px;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.dropdown {
+  right:15px;
+  top:10px;
+}
+
+.dropdown .dropbtn {
+    display:inline;
+    position:absolute;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px;
+    background-color: inherit;
+    font-family: inherit;
+    height:80px;
+    width:80px;
+    right:20px;
+    top:10px;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn img{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+    right:30px;
+    top:60px;
+    box-sizing: content-box;
+    padding:5px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    list-style: none;
+    margin:0;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* homepage-v4.html */
+#Sosta2 img{
+  position: absolute;
+  height:40%;
+  width: 40%;
+  transform: rotate(30deg);
+  left:50px;
+  top:200px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Sosta2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Glossier2 img{
+  position: absolute;
+  height:300px;
+  width:420px;
+  transform: rotate(-5deg);
+  right:150px;
+  top:500px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Glossier2:hover img {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Glossier3 img{
+  position: absolute;
+  height:300px;
+  width:420px;
+  transform: rotate(-5deg);
+  right:150px;
+  top:500px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Glossier3:hover img {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#MaisonKayser2 img{
+  position: absolute;
+  height:250px;
+  width:370px;
+  transform: rotate(-30deg);
+  right: 100px;
+  top: 50px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#MaisonKayser2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+#MaisonKayser3 img{
+  position: absolute;
+  height:250px;
+  width:370px;
+  transform: rotate(-30deg);
+  right: 100px;
+  top: 50px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#MaisonKayser3:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+#Milkbar2 img{
+  position: absolute;
+  height:25%;
+  width: 25%;
+  transform: rotate(10deg);
+  right:100px;
+  top:180px;
+  z-index:1;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Milkbar2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#T-amori2 img{
+  position: absolute;
+  height:220px;
+  width:340px;
+  transform: rotate(-13deg);
+  left:100px;
+  top:700px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#T-amori2 img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+#Milkbar3 img{
+  position: absolute;
+  height:25%;
+  width: 25%;
+  transform: rotate(10deg);
+  right:100px;
+  top:180px;
+  z-index:1;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Milkbar3:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Spot2 img{
+  position: absolute;
+  height:25%;
+  width: 25%;
+  transform: rotate(-45deg);
+  top:300px;
+  right:300px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#Spot2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#Citycakes2 img{
+  position: absolute;
+  height:18%;
+  width:18%;
+  transform: rotate(27deg);
+  left:400px;
+  bottom: 100px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Citycakes2:hover img {
+  height:18.5%;
+  width:18.5%;
+}
+#Foragers2 img{
+  position: absolute;
+  height:200px;
+  width:200px;
+  transform: rotate(-26deg);
+  right:350px;
+  top:700px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Foragers2 img:hover{
+  height:205px;
+  width:205px;
+}
+#Foragers3 img{
+  position: absolute;
+  height:200px;
+  width:200px;
+  transform: rotate(-26deg);
+  right:350px;
+  top:500px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Foragers3 img:hover{
+  height:205px;
+  width:205px;
+}
+#Beacons2 img{
+  position: absolute;
+  height:25%;
+  width:25%;
+  transform: rotate(-40deg);
+  left:400px;
+  top:200px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Beacons2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#MJ2 img{
+  position: absolute;
+  height:30%;
+  width:30%;
+  transform: rotate(-33deg);
+  left:24px;
+  top:175px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#MJ2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+/* Sosta.html */
+.Sosta-card {
+  display:block;
+  position:absolute;
+  width:570px;
+  height:320px;
+  transform: rotate(-20deg);
+  left:50px;
+  top:100px;
+  z-index:1;
+}
+.Sosta-card img{
+  display:block;
+  position: relative;
+  height:100%;
+  z-index: 1;
+}
+.Sosta-card p {
+  position:relative;
+  display:block;
+  padding:30px;
+  height: 81.5%;
+  background-color:rgba(255, 221, 237,0.8);
+  top:-340px;
+  font-size: 20px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Sosta-card p:hover {
+  opacity:100;
+  transition: 0.6 ease-in-out;
+}
+#Sosta-back {
+    display: block;
+    position: relative;
+    width:40%;
+    height:40%;
+    transform: rotate(20deg);
+    bottom:400px;
+    left:10%;
+  }
+
+#Sosta-location {
+  position:relative;
+  display:block;
+  margin:0 auto;
+  height:38%;
+  width:38%;
+  left:250px;
+  top: 20px;
+}
+
+.Sostapopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(255, 221, 237);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:945px;
+    top:430px;
+    z-index:2;
+}
+
+/* The actual popup */
+.Sostapopup .Sostapopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:150px;
+    background-color: rgba(255, 221, 237,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.Sostapopup .Sostapopuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 221, 237) transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.Sostapopup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/* Spot.html */
+.Spot-card {
+  display:block;
+  position:absolute;
+  transform:rotate(18deg);
+  width:450px;
+  height:280px;
+  right:60px;
+  top:70px;
+  z-index:1;
+}
+.Spot-card img{
+  display:block;
+  position:absolute;
+  height:100%;
+}
+.Spot-card p{
+  position:relative;
+  display:block;
+  padding:25px;
+  width:98%;
+  height: 83%;
+  background-color:rgba(255, 242, 198,0.8);
+  font-size: 18px;
+  bottom:18px;
+  left:0px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Spot-card p:hover {
+  opacity:100;
+  transition:0.6 ease-in-out;
+}
+
+#Spot-back {
+  display:block;
+  position:absolute;
+  width:30%;
+  height:30%;
+  transform:rotate(-10deg);
+  left:80px;
+  top:500px;
+}
+.Spot-location img{
+  position:relative;
+  display:block;
+  width:45%;
+  height:45%;
+  left:300px;
+}
+
+.Spotpopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(252, 210, 156);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:540px;
+    top:370px;
+    z-index:2;
+}
+
+/* The actual popup */
+.Spotpopup .Spotpopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:210px;
+    background-color: rgba(252, 210, 156,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 5%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.Spotpopup .Spotpopuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(252, 210, 156) transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.Spotpopup .show2 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/* Milkbar.html */
+.Milkbar-card {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  transform: rotate(-8deg);
+  height:320px;
+  width:460px;
+  top:40px;
+  z-index:2;
+}
+.Milkbar-card img{
+  display:block;
+  position:absolute;
+  height:100%;
+}
+.Milkbar-card p{
+  position:relative;
+  display:block;
+  padding:20px;
+  width:112.5%;
+  height: 88%;
+  background-color:rgba(255, 209, 245,0.8);
+  font-size: 18.5px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Milkbar-card p:hover{
+  opacity:100;
+  transition: 0.6 ease-in-out;
+}
+#MB-Chelsea {
+  position:relative;
+  display:block;
+  width:40%;
+  height:40%;
+  left:10px;
+  bottom:300px;
+  z-index:0;
+}
+
+.Milkbarpopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size:24px;
+    background-color: rgb(255, 209, 245);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:250px;
+    z-index:2;
+}
+
+/* The actual popup */
+.Milkbarpopup .Milkbarpopuptext {
+    visibility: hidden;
+    font-size:16px;
+    width: 300px;
+    height:150px;
+    background-color: rgba(255, 209, 245,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:30px;
+    margin-left: -280px;
+}
+
+/* Toggle this class - hide and show the popup */
+.Milkbarpopup .show3 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#MB-NYC {
+  position:relative;
+  display:block;
+  width:35%;
+  height:35%;
+  left:800px;
+  top:-700px;
+  z-index:0;
+}
+.Milkbar2popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(255, 209, 245);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:1000px;
+    top:-500px;
+    z-index:2;
+}
+
+/* The actual popup */
+.Milkbar2popup .Milkbar2popuptext {
+    visibility: hidden;
+    width: 300px;
+    height:230px;
+    font-size: 18px;
+    background-color: rgba(255, 209, 245,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 4;
+    top:50px;
+    margin-left: -220px;
+}
+
+/* Toggle this class - hide and show the popup */
+.Milkbar2popup .show4 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+#MB-back {
+  position:relative;
+  display:block;
+  height:40%;
+  width:40%;
+  z-index:1;
+  margin:0 auto;
+  bottom:1200px;
+  transform:rotate(10deg);
+}
+
+/* Laduree.html */
+.Laduree-card {
+  position:absolute;
+  display:block;
+  height:600px;
+  width:450px;
+  transform:rotate(-5deg);
+  top:50px;
+  left:50px;
+}
+.Laduree-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.Laduree-card p{
+  position:relative;
+  display:block;
+  padding:30px;
+  width:85%;
+  height: 90%;
+  line-height: 30px;
+  background-color:rgba(255, 255, 255,0.8);
+  font-size: 18.5px;
+  bottom:20px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Laduree-card p:hover{
+  opacity:100;
+}
+.Laduree-location img{
+  position:absolute;
+  display:block;
+  height:620px;
+  width:500px;
+  right:20px;
+  top:100px;
+  z-index:0;
+  transform:rotate(10deg);
+}
+.Ladureepopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(206, 255, 206);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:1018px;
+    top:530px;
+    z-index:2;
+    transform:rotate(10deg);
+}
+
+/* The actual popup */
+.Ladureepopup .Ladureepopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:230px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(206, 255, 206,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:-255px;
+    margin-left: -210px;
+}
+
+.Ladureepopup .Ladureepopuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(206, 255, 206) transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.Ladureepopup .show5 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#Laduree-back {
+  position:absolute;
+  display:block;
+  height:500px;
+  width:350px;
+  transform:rotate(5deg);
+  left:470px;
+  top:320px;
+  z-index:1;
+}
+
+/* Beacons.html */
+.Beacons-card {
+  position:absolute;
+  display:block;
+  height:350px;
+  width:550px;
+  transform:rotate(15deg);
+  top:80px;
+  right:80px;
+}
+.Beacons-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.Beacons-card p{
+  position:relative;
+  display:block;
+  padding:40px;
+  width:97%;
+  height:77%;
+  background-color:rgba(255, 255, 255,0.85);
+  font-size: 18px;
+  line-height:30px;
+  bottom:19px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Beacons-card p:hover{
+  opacity:100;
+}
+.Beacons-location img{
+  position:absolute;
+  display:block;
+  height:620px;
+  width:440px;
+  left:100px;
+  top:70px;
+  z-index:0;
+  transform:rotate(-10deg);
+}
+.Beaconspopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:210px;
+    top:390px;
+    z-index:2;
+    transform:rotate(-10deg);
+}
+
+/* The actual popup */
+.Beaconspopup .Beaconspopuptext {
+    visibility: hidden;
+    width: 400px;
+    height:210px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:-255px;
+    margin-left: -210px;
+}
+
+.Beaconspopup .Beaconspopuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 243, 206) transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.Beaconspopup .show6 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#Beacons-back {
+  position:absolute;
+  display:block;
+  height:230px;
+  width:430px;
+  transform:rotate(-12deg);
+  right:400px;
+  top:400px;
+  z-index:1;
+}
+
+/* M&J.html */
+.MJ-card {
+  position:absolute;
+  display:block;
+  height:300px;
+  width:500px;
+  transform:rotate(-20deg);
+  top:120px;
+  left:30px;
+  z-index:2;
+}
+.MJ-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.MJ-card p{
+  position:relative;
+  display:block;
+  padding:40px;
+  width:90%;
+  height:74%;
+  background-color:rgba(255, 196, 206,0.8);
+  font-size: 18px;
+  line-height:30px;
+  bottom:19px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.MJ-card p:hover{
+  opacity:100;
+}
+.MJ-location img{
+  position:relative;
+  display:block;
+  height:620px;
+  width:440px;
+  margin:0 auto;
+  left:50px;
+  top:70px;
+  z-index:0;
+  transform:rotate(-7deg);
+}
+.MJpopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(255, 196, 206);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:540px;
+    top:420px;
+    z-index:2;
+    transform:rotate(-7deg);
+}
+
+/* The actual popup */
+.MJpopup .MJpopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:180px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(255, 196, 206,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:40px;
+    margin-left: -210px;
+}
+
+/* Toggle this class - hide and show the popup */
+.MJpopup .show7 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#MJ-back {
+  position:absolute;
+  display:block;
+  height:230px;
+  width:430px;
+  transform:rotate(23deg);
+  right:30px;
+  top:400px;
+  z-index:-1;
+}
+
+/* Glossier.html */
+.Glossier-card {
+  position:absolute;
+  display:block;
+  height:350px;
+  width:450px;
+  transform:rotate(5deg);
+  top:60px;
+  right:150px;
+  z-index:2;
+}
+.Glossier-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.Glossier-card p{
+  position:relative;
+  display:block;
+  padding:25px;
+  width:99%;
+  height:86%;
+  background-color:rgba(249, 222, 227,0.8);
+  font-size: 18px;
+  bottom:19px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Glossier-card p:hover{
+  opacity:100;
+}
+.Glossier-location img{
+  position:relative;
+  display:block;
+  height:600px;
+  width:600px;
+  margin:0 auto;
+  left:-220px;
+  top:70px;
+  z-index:0;
+  transform:rotate(-7deg);
+}
+.Glossierpopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(249, 222, 227);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:400px;
+    top:380px;
+    z-index:2;
+    transform:rotate(-7deg);
+}
+
+/* The actual popup */
+.Glossierpopup .Glossierpopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:180px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(249, 222, 227,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:40px;
+    margin-left: -210px;
+}
+
+/* Toggle this class - hide and show the popup */
+.Glossierpopup .show8 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#Glossier-back {
+  position:absolute;
+  display:block;
+  height:280px;
+  width:430px;
+  transform:rotate(23deg);
+  right:250px;
+  top:450px;
+  z-index:1;
+}
+
+/* MaisonKayser.html */
+.MK-card {
+  position:absolute;
+  display:block;
+  height:350px;
+  width:450px;
+  transform:rotate(5deg);
+  top:90px;
+  right:100px;
+  z-index:2;
+}
+.MK-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.MK-card p{
+  position:relative;
+  display:block;
+  padding:25px;
+  width:105%;
+  height:86%;
+  background-color:rgba(194, 249, 240,0.9);
+  font-size: 20px;
+  bottom:19px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.MK-card p:hover{
+  opacity:100;
+}
+.MK-location img{
+  position:relative;
+  display:block;
+  height:600px;
+  width:600px;
+  margin:0 auto;
+  left:-60px;
+  top:70px;
+  z-index:0;
+  transform:rotate(-7deg);
+}
+.MKpopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(194, 249, 240);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:400px;
+    top:350px;
+    z-index:2;
+    transform:rotate(-7deg);
+}
+
+/* The actual popup */
+.MKpopup .MKpopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:200px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(194, 249, 240,0.9);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:-220px;
+    margin-left: -210px;
+}
+
+/* Toggle this class - hide and show the popup */
+.MKpopup .show9 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#MK-back {
+  position:absolute;
+  display:block;
+  height:280px;
+  width:430px;
+  transform:rotate(23deg);
+  left:50px;
+  top:350px;
+  z-index:1;
+}
+
+/* Citycakes.html */
+.Citycakes-card {
+  position:absolute;
+  display:block;
+  height:250px;
+  width:350px;
+  transform:rotate(5deg);
+  top:90px;
+  left:50px;
+  z-index:2;
+}
+.Citycakes-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.Citycakes-card p{
+  position:relative;
+  display:block;
+  padding:20px;
+  width:112%;
+  height:84%;
+  background-color:rgba(249, 247, 192,0.8);
+  font-size: 20px;
+  bottom:20px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Citycakes-card p:hover{
+  opacity:100;
+}
+.Citycakes-location img{
+  position:relative;
+  display:block;
+  height:600px;
+  width:600px;
+  margin:0 auto;
+  left: 250px;
+  top:70px;
+  z-index:0;
+  transform:rotate(12deg);
+}
+.Citycakespopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(249, 247, 192);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:800px;
+    top:400px;
+    z-index:2;
+    transform:rotate(12deg);
+}
+
+/* The actual popup */
+.Citycakespopup .Citycakespopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:220px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(249, 247, 192,0.8);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:-250px;
+    margin-left: -210px;
+}
+
+/* Toggle this class - hide and show the popup */
+.Citycakespopup .show10 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#Citycakes-back {
+  position:absolute;
+  display:block;
+  height:230px;
+  width:380px;
+  transform:rotate(23deg);
+  left:280px;
+  top:400px;
+  z-index:1;
+}
+
+/* Foragers.html */
+.Foragers-card {
+  position:absolute;
+  display:block;
+  height:400px;
+  width:400px;
+  transform:rotate(5deg);
+  top:90px;
+  left:50px;
+  z-index:2;
+}
+.Foragers-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.Foragers-card p{
+  position:relative;
+  display:block;
+  padding:20px;
+  width:90%;
+  height:90%;
+  background-color:rgba(255, 221, 173,0.9);
+  font-size: 18px;
+  bottom:20px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Foragers-card p:hover{
+  opacity:100;
+}
+.Foragers-location img{
+  position:relative;
+  display:block;
+  height:600px;
+  width:600px;
+  margin:0 auto;
+  left: 180px;
+  top:70px;
+  z-index:0;
+  transform:rotate(-18deg);
+}
+.Foragerspopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(255, 221, 173);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:760px;
+    top:380px;
+    z-index:2;
+    transform:rotate(-18deg);
+}
+
+/* The actual popup */
+.Foragerspopup .Foragerspopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:220px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(255, 221, 173,0.9);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:-250px;
+    margin-left: -210px;
+}
+
+/* Toggle this class - hide and show the popup */
+.Foragerspopup .show11 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#Foragers-back {
+  position:absolute;
+  display:block;
+  height:300px;
+  width:300px;
+  transform:rotate(23deg);
+  left:360px;
+  top:500px;
+  z-index:1;
+}
+.Foragers-collect img{
+  position:absolute;
+  display:block;
+  height:100%;
+  transform:rotate(-8deg);
+  z-index:1;
+}
+.Foragers-collect{
+  position:absolute;
+  display:block;
+  height:210px;
+  width:350px;
+  transform:rotate(-8deg);
+  left:900px;
+  top:600px;
+  z-index:1;
+}
+.Foragers-collect p{
+  position:relative;
+  display:block;
+  padding:20px;
+  width:95%;
+  height:82%;
+  background-color:rgba(255, 221, 173,0.9);
+  font-size: 18px;
+  bottom:20px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+  transform: rotate(-8deg);
+}
+.Foragers-collect p:hover{
+  opacity: 100;
+}
+
+/* T-amori.html */
+.Tamori-card {
+  position:absolute;
+  display:block;
+  height:280px;
+  width:410px;
+  transform:rotate(5deg);
+  top:300px;
+  right:100px;
+  z-index:2;
+}
+.Tamori-card img{
+  position:absolute;
+  display:block;
+  height:100%;
+}
+.Tamori-card p{
+  position:relative;
+  display:block;
+  padding:20px;
+  width:110%;
+  height:87%;
+  background-color:rgba(225, 186, 252,0.9);
+  font-size: 20px;
+  bottom:20px;
+  z-index:2;
+  opacity:0;
+  transition: 0.6 ease-in-out;
+}
+.Tamori-card p:hover{
+  opacity:100;
+}
+.Tamori-location img{
+  position:relative;
+  display:block;
+  height:500px;
+  width:500px;
+  left: 100px;
+  top:200px;
+  z-index:0;
+  transform:rotate(-18deg);
+}
+.Tamoripopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(225, 186, 252);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left:280px;
+    top:460px;
+    z-index:2;
+    transform:rotate(-18deg);
+}
+
+/* The actual popup */
+.Tamoripopup .Tamoripopuptext {
+    visibility: hidden;
+    width: 300px;
+    height:180px;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgba(225, 186, 252,0.9);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 3;
+    top:-200px;
+    margin-left: -210px;
+}
+
+/* Toggle this class - hide and show the popup */
+.Tamoripopup .show12 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#Tamori-back {
+  position:absolute;
+  display:block;
+  height:260px;
+  width:380px;
+  transform:rotate(23deg);
+  left:480px;
+  top:80px;
+  z-index:1;
+}
