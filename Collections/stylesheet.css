@@ -2,7 +2,53 @@ body {
   background-color: #fff3dd;
   font-family: 'Poiret One', cursive;
 }
-
+#White {
+  background-color: rgb(252, 248, 242);
+}
+#Pink {
+  background-color: rgb(255, 214, 225);
+}
+#postcards {
+  background-color:#fff3dd;
+  background-image: url(postcard.jpg);
+  background-size:cover;
+  opacity:20;
+}
+.postcards-title{
+  display:block;
+  position:absolute;
+  font-size: 24px;
+  left:52px;
+  top: -20px;
+}
+.collectibles-title{
+  display:block;
+  position:absolute;
+  font-size: 24px;
+  left:52px;
+  top: -20px;
+}
+.homepage-title{
+  display:block;
+  position:absolute;
+  font-size: 24px;
+  left:52px;
+  top: -20px;
+}
+.pink-title {
+  display:block;
+  position:absolute;
+  font-size: 24px;
+  left:52px;
+  top: -20px;
+}
+.white-title {
+  display:block;
+  position:absolute;
+  font-size: 24px;
+  left:52px;
+  top: -20px;
+}
 /* index.html */
 .title h1{
   display: block;
@@ -453,8 +499,8 @@ body {
 }
 #Foragers2 img{
   position: absolute;
-  height:200px;
-  width:200px;
+  height:220px;
+  width:400px;
   transform: rotate(-26deg);
   right:350px;
   top:700px;
@@ -462,8 +508,8 @@ body {
 	transition: .3s ease-in-out;
 }
 #Foragers2 img:hover{
-  height:205px;
-  width:205px;
+  height:225px;
+  width:405px;
 }
 #Foragers3 img{
   position: absolute;
