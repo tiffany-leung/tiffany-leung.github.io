@@ -49,6 +49,13 @@ body {
   left:52px;
   top: -20px;
 }
+.others-title {
+  display:block;
+  position:absolute;
+  font-size: 24px;
+  left:52px;
+  top: -10px;
+}
 /* index.html */
 .title h1{
   display: block;
@@ -557,6 +564,22 @@ body {
   -webkit-filter: grayscale(0);
 	filter: grayscale(0)
 }
+#Laduree2 img{
+  position: absolute;
+  height:320px;
+  width:260px;
+  transform: rotate(28deg);
+  left: 200px;
+  top: 50px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Laduree2:hover img{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
 /* Sosta.html */
 .Sosta-card {
   display:block;
@@ -614,13 +637,14 @@ body {
     position: relative;
     display: inline-block;
     cursor: pointer;
+    font-size:30px;
     background-color: rgb(255, 221, 237);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    left:945px;
-    top:430px;
+    left:900px;
+    top:450px;
     z-index:2;
 }
 
@@ -629,6 +653,7 @@ body {
     visibility: hidden;
     width: 300px;
     height:150px;
+    font-size:16px;
     background-color: rgba(255, 221, 237,0.8);
     color: black;
     text-align: center;
@@ -727,13 +752,14 @@ body {
     position: relative;
     display: inline-block;
     cursor: pointer;
+    font-size: 30px;
     background-color: rgb(252, 210, 156);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     left:540px;
-    top:370px;
+    top:430px;
     z-index:2;
 }
 
@@ -742,6 +768,7 @@ body {
     visibility: hidden;
     width: 300px;
     height:210px;
+    font-size:16px;
     background-color: rgba(252, 210, 156,0.8);
     color: black;
     text-align: center;
@@ -1333,7 +1360,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    left:400px;
+    left:430px;
     top:380px;
     z-index:2;
     transform:rotate(-7deg);
