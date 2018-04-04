@@ -1,0 +1,97 @@
+h1 {
+  background-color: none;
+  display:block;
+  color: pink;
+  transition:color 1s;
+  transition: letter-spacing 1s;
+  letter-spacing: : 0px;
+}
+h1:hover {
+  color:purple;
+  letter-spacing: 5px;
+}
+p {
+  background-color: pink;
+  display: inline;
+  position: relative;
+  letter-spacing: 3px;
+  color: white;
+  font-family: Helvetica;
+  transform: rotate(0);
+}
+p:hover{
+  transform:rotate(10deg);
+}
+#box {
+  display:inline;
+  position:absolute;
+  width: 50px;
+  height:50px;
+  transition: all 1.5s;
+  transform: rotate(0);
+  background-color:pink;
+}
+#box:hover {
+  width: 100px;
+  height: 100px;
+  transform: rotate(270deg);
+  background-color: purple;
+}
+#rose img{
+  display:inline-block;
+  position:absolute;
+  top: 180px;
+  margin: 0;
+  height:70px;
+  width: 55px;
+  animation: 2s infinite spin;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform:rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* creating the bike */
+#car {
+  position: absolute;
+  top: 325px;
+  width: 200px;
+  left: 555px;
+}
+.wheel {
+  position:absolute;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  /* if border radius is half of the side, it makes a circle */
+  border-radius: 25px;
+  background-color:#2b27f9;
+  animation: 1s infinite wheelspin linear;
+}
+.left{
+  position: absolute;
+  height:55px;
+}
+.right{
+  right:0;
+  width:55px;
+}
+.frame{
+  position: absolute;
+  width:200px;
+  height: 70px;
+  background-color: #ff7a99;
+}
+@keyframes wheelspin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

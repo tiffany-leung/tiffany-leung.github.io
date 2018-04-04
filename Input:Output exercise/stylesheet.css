@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(255, 248, 221);
+}
+
+h1 {
+  position:relative;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Helvetica,serif;
+  color: rgb(255, 209, 236);
+}
+
+#adj {
+  position:relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18vw;
+  font-family: Helvetica,serif;
+  color: rgb(255, 175, 175);
+  cursor: pointer;
+}
+
+#adj2 {
+  position:relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18vw;
+  font-family: Helvetica,serif;
+  color: rgb(221, 209, 255);
+  cursor: pointer;
+}

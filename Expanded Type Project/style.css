@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  max-width: 100vw;
+  height: 100%;
+  padding: 0px;
+  position: relative;
+  background-color: white;
+}
+
+#text {
+  max-width: 100vw;
+  height: 100%;
+  position: relative;
+  background-color: none;
+}
+
+#text p {
+  color: rgb(6, 11, 51);
+  font-family: Georgia, "Times New Roman", "SentyWen", "汉仪新蒂文徵明体","华文楷体", serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1.6;
+  text-decoration: none;
+  width: 100%;
+  max-width: 100%;
+  letter-spacing: 0;
+  text-indent: 0;
+}
+
+span {
+  font-family:'Baskerville Old Face', Georgia,"Times New Roman", serif;
+}
+
+.line1 {
+  position:relative;
+  display:inline;
+  font-size: 30px;
+  top:160px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.line1.ii {
+  display:none;
+}
+
+#line2 {
+  position:relative;
+  display:inline;
+  font-size:45px;
+  top: 200px;
+  left:33%;
+  cursor: pointer;
+}
+#line3 {
+  position:relative;
+  display:inline;
+  font-size: 60px;
+  top: 450px;
+  left:55%;
+  cursor: pointer;
+}
+#line4 {
+  position:relative;
+  display:inline;
+  font-size: 20px;
+  top: -150px;
+  left:85%;
+  cursor: pointer;
+}
+
+.spotlight{
+  position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.5);
+   background-image: -webkit-radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(6, 11, 51,0.2) 30px, rgba(6, 11, 51,1) 400px);
+}
