@@ -21,7 +21,7 @@ body {
 
 #text p {
   color: rgb(6, 11, 51);
-  font-family: Georgia, "Times New Roman", "SentyWen", "汉仪新蒂文徵明体"， serif;
+  font-family: Georgia, "Times New Roman", "SentyWen", "汉仪新蒂文徵明体","华文楷体", serif;
   font-weight: normal;
   font-style: normal;
   text-align: left;
