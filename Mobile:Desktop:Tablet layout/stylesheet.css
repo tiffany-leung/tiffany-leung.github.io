@@ -6,7 +6,7 @@ body {
 .header {
   position:relative;
   display:block;
-  width: 800px;
+  width: 1000px;
   height: 200px;
   top: 20px;
   color: white;
@@ -21,6 +21,13 @@ body {
 
 .header h3 {
   color: rgb(255, 177, 160);
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .header {
+        width: 800px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 650px) and (max-width: 800px) {
@@ -45,11 +52,18 @@ body {
 .article-text {
   position:relative;
   display:block;
-  width: 800px;
+  width: 1000px;
   top: 55px;
   background-color:rgb(252, 132, 106);
   padding: 10px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .article-text {
+        width: 800px;
+        background-color:rgb(255, 183, 168);
+    }
 }
 
 @media screen and (min-width: 650px) and (max-width: 800px) {
@@ -86,11 +100,11 @@ body {
   float:left;
 }
 .gallery1 h3 {
-  color:rgb(252, 161, 141);
+  color:rgb(252, 132, 106);
   font-size: 25px;
 }
 .gallery1 p {
-  color:rgb(252, 140, 116);
+  color:rgb(252, 132, 106);
   font-size: 15px;
 }
 .gallery1 img{
@@ -126,14 +140,14 @@ body {
   float:right;
 }
 .gallery2 h3{
-  color:rgb(252, 161, 141);
+  color:rgb(252, 132, 106);
   font-size: 25px;
   position:relative;
   display:block;
   left: 15px;
 }
 .gallery2 p {
-  color:rgb(252, 140, 116);
+  color:rgb(252, 132, 106);
   font-size: 15px;
   position:relative;
   display:block;
@@ -155,15 +169,15 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1200px) {
+@media screen and (min-width: 780px) and (max-width: 1024px) {
     .galleries {
         width: 800px;
     }
     .galleries h3{
-      color:rgb(255, 180, 147);
+      color:rgb(255, 183, 168);
     }
     .galleries p {
-      color:rgb(255, 180, 147);
+      color:rgb(255, 183, 168);
     }
     .galleries img {
       height: 450px;
