@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Switching Views</title>
+    <style>
+        a {
+            cursor: pointer;
+        }
+
+        @keyframes FADE {
+          0% {opacity:0;}
+          100% {opacity:1;
+                display:block;}
+        }
+        /* pages should be hidden by default */
+        .page {
+          opacity:0;
+          transition: opacity 3s;
+        }
+
+        /* 'active' class makes a page visible */
+        .page .active {
+          opacity: 0;
+        }
+
+        /* highlighted navigation button style */
+        .nav-button .active {
+          border: 1px red;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <header class="header">
+            <h1>SWITCHING VIEWS 101</h1>
+            <nav>
+                <a class="nav-button page-1 active">
+                    Page 1
+                </a>
+                <a class="nav-button page-2 active">
+                    Page 2
+                </a>
+                <a class="nav-button page-3 active">
+                    Page 3
+                </a>
+            </nav>
+        </header>
+        <div class="page page-1 active">
+            <h2>Page 1</h2>
+            <p>
+                This is the first page!
+            </p>
+        </div>
+        <div class="page page-2 active">
+            <h2>Page 2</h2>
+            <p>
+                This is the second page!
+            </p>
+        </div>
+        <div class="page page-3 active">
+            <h2>Page 3</h2>
+            <p>
+                This is the third page!
+            </p>
+        </div>
+    </div>
+  </body>
+  <script>
+    // select navigation buttons
+    var button1 = document.querySelector('.nav-button.page-1');
+    var button2 = document.querySelector('.nav-button.page-2');
+    var button3 = document.querySelector('.nav-button.page-3');
+
+    // button 1 shows page 1 on click
+    button1.addEventListener('click',function () {
+      console.log('Button 1 works');
+      showPage('.page-1');
+
+    })
+    // button 2 shows page 2 on click
+    button2.addEventListener('click',function () {
+      console.log('Button 2 works');
+      showPage('.page-2');
+
+    })
+    // button 3 shows page 3 on click
+    button3.addEventListener('click',function () {
+      console.log('Button 3 works');
+      showPage('.page-3');
+
+    })
+    // function to show a page and hide all others
+    // takes the page's class name as an argument (ie 'page-1', 'page-2', etc)
+    var showPage = function(className) {
+      console.log('showPage was called with:' + className);
+        // select all page container divs
+        var allPages = document.querySelectorAll('.page');
+        // remove the active class name from each one, making them hidden based on the CSS
+        allPages.forEach(function(page) {
+          page.classList.remove('.active');
+        });
+        // select the page to show ('.page.page-1', '.page.page-2', etc)
+          var show2 = document.querySelector('.page' + className);
+        // add the 'active' class name to the element, making it visible based on the CSS
+        show2.classList.add('.active');
+        // select all navigation buttons
+        var allButtons = document.querySelectorAll ('.nav-button');
+        // remove the active class name from each one, making them hidden based on the CSS
+        allButtons.forEach(function(button){
+          button.classList.remove('.active');
+        })
+        // select the navigation button to highlight ('.nav-button.page-1', 'nav-button.page-2', etc)
+        var buttonToHighlight = document.querySelector('.nav-button'+ className);
+        // add the 'active class name to the element, making it be styled differently based on the CSS'
+        buttonToHighlight.classList.add('.active');
+    }
+        // show loading page
+    setTimeout(function () {
+      showPage('.page1');
+    },3000);
+    
+  </script>
+</html>

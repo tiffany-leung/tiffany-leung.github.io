@@ -1,0 +1,233 @@
+body {
+  background-color: rgb(214, 180, 139);
+  font-family: 'Futura',Helvetica, sans-serif;
+}
+
+
+/* index page */
+.start {
+  position:relative;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  top: 20vh;
+  color:white;
+  border-width: medium;
+  border-color:white;
+  background-color: rgba(255,255,255,0.3);
+}
+.start a{
+  color:white;
+}
+.start a:visted {
+  color:white;
+}
+.start a:hover {
+  opacity: 0.5;
+}
+.start h1 {
+  font-size: 40px;
+}
+.start h2 {
+  font-size: 40px;
+}
+.introText {
+  position:relative;
+  top:23%;
+  text-align: center;
+  line-height: 50px;
+}
+@media screen and (min-width: 375px) and (max-width: 420px) {
+    .start {
+      height:300px;
+      width:300px;
+       top: 25vh;
+    }
+}
+@media screen and (min-width: 620px) and (max-width: 750px) {
+    .start {
+      height:300px;
+      width:300px;
+      top: 10vh;
+    }
+}
+
+/* homepage */
+.enterLinks {
+  position:relative;
+  height: 450px;
+  width: 450px;
+  margin: 0 auto;
+  top: 20vh;
+  color:white;
+  background-color: rgba(255,255,255,0.3);
+}
+.enterLinks a:hover{
+  opacity:0.6;
+}
+.enterLinks a:visited{
+  color: white;
+}
+#year1938 {
+  position:absolute;
+  display:inline;
+}
+#year1938 a{
+  position:absolute;
+  display:inline;
+  left: 50px;
+  top: 70px;
+  font-size: 50px;
+  color:white;
+  z-index:1;
+}
+#year1938 img{
+  top:0;
+  left:0;
+  height:215px;
+  width:215px;
+  z-index:0;
+  opacity:0.6;
+}
+#year1946 a{
+  position:absolute;
+  display:inline;
+  left: 280px;
+  top: 70px;
+  font-size: 50px;
+  color:white;
+  z-index:1;
+}
+#year1946 img{
+  position:absolute;
+  display:inline;
+  top:0;
+  right:0;
+  height:215px;
+  width:215px;
+  background-color: white;
+  opacity:0.6;
+}
+#year1965 a{
+  position:absolute;
+  display:inline;
+  left: 50px;
+  top: 300px;
+  font-size: 50px;
+  color:white;
+  z-index:1;
+}
+#year1965 img{
+  position:absolute;
+  top:235px;
+  left:0;
+  height:215px;
+  width:215px;
+  background-color: white;
+  opacity:0.6;
+}
+#year1972 a{
+  position:absolute;
+  display:inline;
+  left: 280px;
+  top: 300px;
+  font-size: 50px;
+  color:white;
+  z-index:1;
+}
+#year1972 img{
+  position:absolute;
+  top:235px;
+  right:0;
+  height:215px;
+  width:215px;
+  background-color: white;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 375px) and (max-width: 420px) {
+    .enterLinks {
+      height: 350px;
+      width: 350px;
+      top: 23vh;
+    }
+    .enterlinks a{
+      font-size: 20px;
+    }
+    #year1938 a{
+      top:45px;
+      left:23px;
+    }
+    #year1938 img{
+      height:162px;
+      width:162px;
+    }
+    #year1946 a{
+      top:45px;
+      left:215px;
+    }
+    #year1946 img{
+      height:162px;
+      width:162px;
+    }
+    #year1965 a{
+      top:225px;
+      left:23px;
+    }
+    #year1965 img{
+      top:187px;
+      height:162px;
+      width:162px;
+    }
+    #year1972 a{
+      top:225px;
+      left:215px;
+    }
+    #year1972 img{
+      top:187px;
+      height:162px;
+      width:162px;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 750px) {
+    .enterLinks {
+      height: 350px;
+      width: 350px;
+      top: 1.5vh;
+    }
+    #year1938 a{
+      top:45px;
+      left:25px;
+    }
+    #year1938 img{
+      height:165px;
+      width:165px;
+    }
+    #year1946 a{
+      top:45px;
+      left:215px;
+    }
+    #year1946 img{
+      height:165px;
+      width:165px;
+    }
+    #year1965 a{
+      top:225px;
+      left:25px;
+    }
+    #year1965 img{
+      top:185px;
+      height:165px;
+      width:165px;
+    }
+    #year1972 a{
+      top:225px;
+      left:215px;
+    }
+    #year1972 img{
+      top:185px;
+      height:165px;
+      width:165px;
+    }
+}
