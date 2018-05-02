@@ -39,8 +39,8 @@ body {
 }
 @media screen and (min-width: 375px) and (max-width: 420px) {
     .start {
-      height:350px;
-      width:350px;
+      height:400px;
+      width:400px;
        top: 25vh;
     }
     .introText {
@@ -57,6 +57,7 @@ body {
       width:350px;
       top:0.5vh;
     }
+
 }
 
 /* homepage */
@@ -65,7 +66,7 @@ body {
   height: 450px;
   width: 450px;
   margin: 0 auto;
-  top: 20vh;
+  top: 30vh;
   color:white;
   background-color: rgba(255,255,255,0.3);
 }
