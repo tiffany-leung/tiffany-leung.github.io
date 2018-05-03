@@ -412,7 +412,7 @@ body {
   left:55%;
   float:right;
   text-align: left;
-  font-size: 20px;
+  font-size: 40px;
   top:5vh;
 }
 #txt1938 h1 {
@@ -433,17 +433,20 @@ body {
   display: block;
   width:850px;
   height:700px;
-  top: 60vh;
+  top: 40vh;
 }
 #text-box1938 {
   position:absolute;
   display:block;
   width: 850px;
   height:350px;
-  top:160vh;
+  top:100vh;
+}
+#text-box1938 h2 {
+  font-size: 60px;
 }
 #text-box1938 p {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 420px) {
