@@ -412,7 +412,7 @@ body {
   left:55%;
   float:right;
   text-align: left;
-  font-size: 40px;
+  font-size: 35px;
   top:5vh;
 }
 #txt1938 h1 {
@@ -433,14 +433,14 @@ body {
   display: block;
   width:850px;
   height:700px;
-  top: 40vh;
+  top: 80vh;
 }
 #text-box1938 {
   position:absolute;
   display:block;
   width: 850px;
   height:350px;
-  top:100vh;
+  top:175vh;
 }
 #text-box1938 h2 {
   font-size: 60px;
