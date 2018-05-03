@@ -61,12 +61,64 @@ body {
 }
 
 /* homepage */
+.Popuplink {
+  position:relative;
+  display:block;
+  top:5vh;
+  height:100px;
+  width:450px;
+  margin:0 auto;
+}
+.Popuplink img {
+  position: relative;
+  height: 100px;
+  width:100px;
+  left:39%;
+}
+.Popuplink .popuptext {
+	  padding-top: 15px;
+    line-height: 20px;
+    visibility: hidden;
+    width: 300px;
+    height:340px;
+    background-color:rgb(214, 180, 139);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border:3px solid white;
+    border-radius: 6px;
+    padding: 5px;
+    top:20vh;
+    left:10vh;
+    position: absolute;
+    margin:0 auto;
+    z-index: 2;
+}
+
+/* Toggle this class - hide and show the popup */
+.Popuplink .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
 .enterLinks {
   position:relative;
   height: 450px;
   width: 450px;
   margin: 0 auto;
-  top: 20vh;
+  top: 5vh;
   color:white;
   background-color: rgba(255,255,255,0.3);
 }
@@ -154,10 +206,61 @@ body {
 }
 
 @media screen and (min-width: 375px) and (max-width: 420px) {
+  .Popuplink {
+    position:relative;
+    display:block;
+    top:5vh;
+    height:100px;
+    width:350px;
+    margin:0 auto;
+  }
+  .Popuplink img {
+    position: relative;
+    height: 100px;
+    width:100px;
+    left:36%;
+  }
+  .Popuplink .popuptext {
+      padding-top: 15px;
+      line-height: 20px;
+      visibility: hidden;
+      width: 300px;
+      height:340px;
+      background-color:rgb(214, 180, 139);
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      border:3px solid white;
+      border-radius: 6px;
+      padding: 5px;
+      top:20vh;
+      left:2vh;
+      position: absolute;
+      margin:0 auto;
+      z-index: 2;
+  }
+  /* Toggle this class - hide and show the popup */
+  .Popuplink .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+  }
+
     .enterLinks {
       height: 350px;
       width: 350px;
-      top: 23vh;
+      top: 10vh;
     }
     .enterlinks a{
       font-size: 20px;
@@ -256,13 +359,14 @@ body {
   color: white;
   font-size:40px;
   border: 2px solid #ffff;
+  margin:10px;
   float:left;
   font-family: 'Futura',Helvetica,sans-serif;
   text-align: center;
   background-color: rgba(255,255,255,0.3);
 }
 .navigation-bar button:hover {
-
+  cursor:pointer;
 }
 
 
