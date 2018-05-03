@@ -41,7 +41,7 @@ body {
     .start {
       height:400px;
       width:400px;
-       top: 25vh;
+       top: 15vh;
     }
     .introText {
         position:relative;
@@ -66,7 +66,7 @@ body {
   height: 450px;
   width: 450px;
   margin: 0 auto;
-  top: 30vh;
+  top: 20vh;
   color:white;
   background-color: rgba(255,255,255,0.3);
 }
@@ -202,7 +202,7 @@ body {
     .enterLinks {
       height: 350px;
       width: 350px;
-      top: 1.5vh;
+      top: 1vh;
     }
     #year1938 a{
       top:45px;
@@ -238,4 +238,77 @@ body {
       height:165px;
       width:165px;
     }
+}
+
+/* 1938 */
+.navigation-bar {
+  position:relative;
+  display:block;
+  height: 100px;
+  width: 520px;
+  margin:0 auto;
+}
+.navigation-bar button {
+  position:relative;
+  display:inline;
+  height: 80px;
+  width: 140px;
+  color: white;
+  font-size:40px;
+  border: 2px solid #ffff;
+  float:left;
+  font-family: 'Futura',Helvetica,sans-serif;
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+}
+.navigation-bar button:hover {
+
+}
+
+
+.layout1938 {
+  position:relative;
+  margin: 0 auto;
+  width: 850px;
+  height:1000px;
+  top: 100px;
+  color: white;
+  z-index:-1;
+}
+
+#audio1938 {
+  position: absolute;
+  display:inline;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  left: 2vh;
+}
+#audio1938 img{
+  position: absolute;
+  display:inline;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  opacity:1;
+  left: 2vh;
+}
+
+#txt1938 {
+  position: relative;
+  display: block;
+  width: 380px;
+  height: 380px;
+  left: 65vh;
+  top:-50vh;
+  text-align: left;
+  font-size: 20px;
+  top: 60vh;
+}
+#txt1938 h1 {
+  position: relative;
+  display: inline;
+  font-size: 150px;
+  left:-5vh;
+  line-height: 100px;
 }
