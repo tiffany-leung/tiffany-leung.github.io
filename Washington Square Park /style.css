@@ -348,11 +348,11 @@ body {
   position:relative;
   display:block;
   height: 100px;
-  width: 520px;
+  width: 600px;
   margin:0 auto;
 }
 .navigation-bar button {
-  position:relative;
+  position: relative;
   display:inline;
   height: 80px;
   width: 140px;
@@ -369,12 +369,18 @@ body {
   cursor:pointer;
 }
 
+#homebutton img{
+  position: relative;
+  display:inline;
+  width: 100px;
+  height:100px;
+}
 
 .layout1938 {
   position:relative;
   margin: 0 auto;
   width: 850px;
-  height:1000px;
+  height:1500px;
   top: 100px;
   color: white;
   z-index:-1;
@@ -399,15 +405,15 @@ body {
 }
 
 #txt1938 {
-  position: relative;
+  position: absolute;
   display: block;
   width: 380px;
   height: 380px;
-  left: 65vh;
-  top:-50vh;
+  left:55%;
+  float:right;
   text-align: left;
   font-size: 20px;
-  top: 60vh;
+  top:5vh;
 }
 #txt1938 h1 {
   position: relative;
@@ -415,4 +421,135 @@ body {
   font-size: 150px;
   left:-5vh;
   line-height: 100px;
+}
+#map1938 {
+  position: absolute;
+  display:block;
+  width: 850px;
+  height: 700px;
+}
+#map1938 img{
+  position:absolute;
+  display: block;
+  width:850px;
+  height:700px;
+  top: 60vh;
+}
+#text-box1938 {
+  position:absolute;
+  display:block;
+  width: 850px;
+  height:350px;
+  top:160vh;
+}
+#text-box1938 p {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 420px) {
+  .navigation-bar {
+    position:relative;
+    display:block;
+    height: 100px;
+    width: 370px;
+    margin:0 auto;
+  }
+  .navigation-bar button {
+    position: relative;
+    display:inline;
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size:30px;
+    border: 2px solid #ffff;
+    margin:5px;
+    float:left;
+    font-family: 'Futura',Helvetica,sans-serif;
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+  }
+  .navigation-bar button:hover {
+    cursor:pointer;
+  }
+
+  #homebutton img{
+    position: relative;
+    display:inline;
+    width: 90px;
+    height: 90px;
+  }
+
+  .layout1938 {
+    position:relative;
+    margin: 0 auto;
+    width: 375px;
+    height:1500px;
+    top: 100px;
+    color: white;
+    z-index:-1;
+  }
+
+  #audio1938 {
+    position: absolute;
+    display:inline;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    top: -10vh;
+  }
+  #audio1938 img{
+    position: absolute;
+    display:inline;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    opacity:1;
+  }
+
+  #txt1938 {
+    position: absolute;
+    display: block;
+    width: 325px;
+    height: 325px;
+    line-height: 20px;
+    float:left;
+    text-align: left;
+    font-size: 20px;
+    top:25vh;
+    left:4vh;
+  }
+  #txt1938 p {
+    position: relative;
+    display: block;
+    font-size: 20px;
+  }
+  #txt1938 h1 {
+    position: relative;
+    display: inline;
+    font-size: 100px;
+  }
+  #map1938 {
+    position: absolute;
+    display:block;
+    width: 375px;
+    height: 300px;
+    left:-1vh;
+  }
+  #map1938 img{
+    position:absolute;
+    display: block;
+    width: 375px;
+    height:300px;
+    top: 65vh;
+  }
+  #text-box1938 {
+    position:absolute;
+    display:block;
+    width: 360px;
+    height:350px;
+    top:110vh;
+  }
+  #text-box1938 p {
+    font-size: 20px;
+  }
 }
