@@ -7,14 +7,15 @@ body {
 /* index page */
 .start {
   position:relative;
-  height: 400px;
-  width: 400px;
+  height: 80vw;
+  width: 80vw;
   margin: 0 auto;
-  top: 20vh;
+  top: 25vh;
   color:white;
   border-width: medium;
   border-color:white;
   background-color: rgba(255,255,255,0.3);
+  font-weight: lighter;
 }
 .start a{
   color:white;
@@ -26,16 +27,16 @@ body {
   opacity: 0.5;
 }
 .start h1 {
-  font-size: 40px;
+  font-size: 90px;
 }
 .start h2 {
-  font-size: 40px;
+  font-size: 90px;
 }
 .introText {
   position:relative;
   top:23%;
   text-align: center;
-  line-height: 50px;
+  line-height: 80px;
 }
 
 /* homepage */
