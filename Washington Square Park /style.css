@@ -297,3 +297,113 @@ body {
 #text-box1938 p {
   font-size: 60px;
 }
+
+/* 1946 */
+.navigation-bar {
+  position:relative;
+  display:block;
+  height: 200px;
+  width: 90vw;
+  margin:0 auto;
+  top:2vh;
+}
+.navigation-bar a{
+  position: relative;
+  display:inline;
+  height: 150px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  font-size:80px;
+  margin:10px;
+  float:left;
+  font-family: 'Futura',Helvetica,sans-serif;
+  text-align: center;
+}
+.navigation-bar a:hover {
+  cursor:pointer;
+}
+
+#homebutton img{
+  position: relative;
+  display:inline;
+  width: 150px;
+  height:150px;
+}
+
+.layout1938 {
+  position:relative;
+  margin: 0 auto;
+  width: 100vw;
+  height:1500px;
+  top: 100px;
+  color: white;
+  z-index:-1;
+}
+
+#audio1946 {
+  position: absolute;
+  display:inline;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  left: 6vh;
+}
+#audio1946 img{
+  position: absolute;
+  display:inline;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  opacity:1;
+}
+
+#txt1946 {
+  position: absolute;
+  display: block;
+  width: 800px;
+  height: 800px;
+  text-align: left;
+  top:40vh;
+}
+#txt1946 h1 {
+  position: relative;
+  display: inline;
+  font-size: 300px;
+  line-height: 100px;
+}
+#txt1946 p {
+  position: relative;
+  display: block;
+  font-size: 60px;
+  left:5vw;
+}
+#map1946 {
+  position: absolute;
+  display:block;
+  width: 98vw;
+  height: 700px;
+  top: 8vh;
+  left:-0.5vh;
+}
+#map1946 img{
+  position:absolute;
+  display: block;
+  width: 100vw;
+  height:800px;
+  top: 80vh;
+}
+#text-box1946{
+  position:absolute;
+  display:block;
+  width: 90vw;
+  height:350px;
+  top:135vh;
+  left: 5vw;
+}
+#text-box1946 h2 {
+  font-size: 100px;
+}
+#text-box1946 p {
+  font-size: 60px;
+}
