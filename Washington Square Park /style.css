@@ -192,23 +192,24 @@ body {
   position:relative;
   display:block;
   height: 200px;
-  width: 850px;
+  width: 90vw;
   margin:0 auto;
   top:2vh;
 }
-.navigation-bar button {
+.navigation-bar a{
   position: relative;
   display:inline;
   height: 150px;
   width: 200px;
   color: white;
+  text-decoration: none;
   font-size:80px;
-  margin:15px;
+  margin:10px;
   float:left;
   font-family: 'Futura',Helvetica,sans-serif;
   text-align: center;
 }
-.navigation-bar button:hover {
+.navigation-bar a:hover {
   cursor:pointer;
 }
 
@@ -271,7 +272,7 @@ body {
   display:block;
   width: 98vw;
   height: 700px;
-  top: 5vh;
+  top: 8vh;
   left:-0.5vh;
 }
 #map1938 img{
@@ -286,7 +287,7 @@ body {
   display:block;
   width: 90vw;
   height:350px;
-  top:130vh;
+  top:135vh;
   left: 5vw;
 }
 #text-box1938 h2 {
