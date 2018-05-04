@@ -347,23 +347,22 @@ body {
 .navigation-bar {
   position:relative;
   display:block;
-  height: 100px;
-  width: 600px;
+  height: 200px;
+  width: 850px;
   margin:0 auto;
+  top:2vh;
 }
 .navigation-bar button {
   position: relative;
   display:inline;
-  height: 80px;
-  width: 140px;
+  height: 150px;
+  width: 200px;
   color: white;
-  font-size:40px;
-  border: 2px solid #ffff;
+  font-size:80px;
   margin:10px;
   float:left;
   font-family: 'Futura',Helvetica,sans-serif;
   text-align: center;
-  background-color: rgba(255,255,255,0.3);
 }
 .navigation-bar button:hover {
   cursor:pointer;
@@ -372,14 +371,14 @@ body {
 #homebutton img{
   position: relative;
   display:inline;
-  width: 100px;
-  height:100px;
+  width: 150px;
+  height:150px;
 }
 
 .layout1938 {
   position:relative;
   margin: 0 auto;
-  width: 850px;
+  width: 100vw;
   height:1500px;
   top: 100px;
   color: white;
@@ -389,170 +388,66 @@ body {
 #audio1938 {
   position: absolute;
   display:inline;
-  width: 400px;
-  height: 400px;
+  width: 800px;
+  height: 800px;
   border-radius: 100%;
-  left: 2vh;
+  left: 6vh;
 }
 #audio1938 img{
   position: absolute;
   display:inline;
-  width: 400px;
-  height: 400px;
+  width: 800px;
+  height: 800px;
   border-radius: 100%;
   opacity:1;
-  left: 2vh;
 }
 
 #txt1938 {
   position: absolute;
   display: block;
-  width: 380px;
-  height: 380px;
-  left:55%;
-  float:right;
+  width: 800px;
+  height: 800px;
   text-align: left;
-  font-size: 35px;
-  top:5vh;
+  top:40vh;
 }
 #txt1938 h1 {
   position: relative;
   display: inline;
-  font-size: 150px;
-  left:-5vh;
+  font-size: 300px;
   line-height: 100px;
+}
+#txt1938 p {
+  position: relative;
+  display: block;
+  font-size: 60px;
+  left:5vw;
 }
 #map1938 {
   position: absolute;
   display:block;
-  width: 850px;
+  width: 98vw;
   height: 700px;
+  top: 5vh;
+  left:-0.5vh;
 }
 #map1938 img{
   position:absolute;
   display: block;
-  width:850px;
-  height:700px;
+  width: 100vw;
+  height:800px;
   top: 80vh;
 }
 #text-box1938 {
   position:absolute;
   display:block;
-  width: 850px;
+  width: 90vw;
   height:350px;
-  top:175vh;
+  top:130vh;
+  left: 5vw;
 }
 #text-box1938 h2 {
-  font-size: 60px;
+  font-size: 100px;
 }
 #text-box1938 p {
-  font-size: 40px;
-}
-
-@media screen and (min-width: 375px) and (max-width: 420px) {
-  .navigation-bar {
-    position:relative;
-    display:block;
-    height: 100px;
-    width: 370px;
-    margin:0 auto;
-  }
-  .navigation-bar button {
-    position: relative;
-    display:inline;
-    height: 80px;
-    width: 80px;
-    color: white;
-    font-size:30px;
-    border: 2px solid #ffff;
-    margin:5px;
-    float:left;
-    font-family: 'Futura',Helvetica,sans-serif;
-    text-align: center;
-    background-color: rgba(255,255,255,0.3);
-  }
-  .navigation-bar button:hover {
-    cursor:pointer;
-  }
-
-  #homebutton img{
-    position: relative;
-    display:inline;
-    width: 90px;
-    height: 90px;
-  }
-
-  .layout1938 {
-    position:relative;
-    margin: 0 auto;
-    width: 375px;
-    height:1500px;
-    top: 100px;
-    color: white;
-    z-index:-1;
-  }
-
-  #audio1938 {
-    position: absolute;
-    display:inline;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    top: -10vh;
-  }
-  #audio1938 img{
-    position: absolute;
-    display:inline;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    opacity:1;
-  }
-
-  #txt1938 {
-    position: absolute;
-    display: block;
-    width: 325px;
-    height: 325px;
-    line-height: 20px;
-    float:left;
-    text-align: left;
-    font-size: 20px;
-    top:25vh;
-    left:4vh;
-  }
-  #txt1938 p {
-    position: relative;
-    display: block;
-    font-size: 20px;
-  }
-  #txt1938 h1 {
-    position: relative;
-    display: inline;
-    font-size: 100px;
-  }
-  #map1938 {
-    position: absolute;
-    display:block;
-    width: 375px;
-    height: 300px;
-    left:-1vh;
-  }
-  #map1938 img{
-    position:absolute;
-    display: block;
-    width: 375px;
-    height:300px;
-    top: 65vh;
-  }
-  #text-box1938 {
-    position:absolute;
-    display:block;
-    width: 360px;
-    height:350px;
-    top:110vh;
-  }
-  #text-box1938 p {
-    font-size: 20px;
-  }
+  font-size: 60px;
 }
