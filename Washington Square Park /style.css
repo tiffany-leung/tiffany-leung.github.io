@@ -37,59 +37,37 @@ body {
   text-align: center;
   line-height: 50px;
 }
-@media screen and (min-width: 375px) and (max-width: 420px) {
-    .start {
-      height:400px;
-      width:400px;
-       top: 15vh;
-    }
-    .introText {
-        position:relative;
-        top:23%;
-        text-align: center;
-        line-height: 40px;
-        font-size: 40px;
-    }
-}
-@media screen and (min-width: 620px) and (max-width: 750px) {
-    .start {
-      height:350px;
-      width:350px;
-      top:0.5vh;
-    }
-
-}
 
 /* homepage */
 .Popuplink {
   position:relative;
   display:block;
-  top:5vh;
+  top:13vh;
   height:100px;
   width:450px;
   margin:0 auto;
 }
 .Popuplink img {
   position: relative;
-  height: 100px;
-  width:100px;
-  left:39%;
+  height: 200px;
+  width:200px;
+  left:30%;
 }
 .Popuplink .popuptext {
 	  padding-top: 15px;
-    line-height: 20px;
+    line-height: 50px;
     visibility: hidden;
-    width: 300px;
-    height:340px;
+    width: 60vw;
+    height:90vw;
     background-color:rgb(214, 180, 139);
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     border:3px solid white;
     border-radius: 6px;
     padding: 5px;
-    top:20vh;
-    left:10vh;
+    top:15vh;
+    left:-4vh;
     position: absolute;
     margin:0 auto;
     z-index: 2;
@@ -115,12 +93,15 @@ body {
 
 .enterLinks {
   position:relative;
-  height: 450px;
-  width: 450px;
+  height: 90vw;
+  width: 90vw;
   margin: 0 auto;
-  top: 5vh;
+  top: 20vh;
   color:white;
-  background-color: rgba(255,255,255,0.3);
+  text-decoration: none;
+}
+.enterLinks a{
+  text-decoration: none;
 }
 .enterLinks a:hover{
   opacity:0.6;
@@ -135,26 +116,26 @@ body {
 #year1938 a{
   position:absolute;
   display:inline;
-  left: 50px;
-  top: 70px;
-  font-size: 50px;
+  left: 9vw;
+  top: 15vw;
+  font-size: 100px;
   color:white;
   z-index:1;
 }
 #year1938 img{
   top:0;
   left:0;
-  height:215px;
-  width:215px;
+  height:44vw;
+  width:44vw;
   z-index:0;
   opacity:0.6;
 }
 #year1946 a{
   position:absolute;
   display:inline;
-  left: 280px;
-  top: 70px;
-  font-size: 50px;
+  left: 55vw;
+  top: 15vw;
+  font-size: 100px;
   color:white;
   z-index:1;
 }
@@ -163,185 +144,48 @@ body {
   display:inline;
   top:0;
   right:0;
-  height:215px;
-  width:215px;
+  height:44vw;
+  width:44vw;
   background-color: white;
   opacity:0.6;
 }
 #year1965 a{
   position:absolute;
   display:inline;
-  left: 50px;
-  top: 300px;
-  font-size: 50px;
+  left: 9vw;
+  top: 35vh;
+  font-size: 100px;
   color:white;
   z-index:1;
 }
 #year1965 img{
   position:absolute;
-  top:235px;
+  top:46vw;
   left:0;
-  height:215px;
-  width:215px;
+  height:44vw;
+  width:44vw;
   background-color: white;
   opacity:0.6;
 }
 #year1972 a{
   position:absolute;
   display:inline;
-  left: 280px;
-  top: 300px;
-  font-size: 50px;
+  left: 55vw;
+  top: 35vh;
+  font-size: 100px;
   color:white;
   z-index:1;
 }
 #year1972 img{
   position:absolute;
-  top:235px;
+  top:46vw;
   right:0;
-  height:215px;
-  width:215px;
+  height:44vw;
+  width:44vw;
   background-color: white;
   opacity: 0.6;
 }
 
-@media screen and (min-width: 375px) and (max-width: 420px) {
-  .Popuplink {
-    position:relative;
-    display:block;
-    top:5vh;
-    height:100px;
-    width:350px;
-    margin:0 auto;
-  }
-  .Popuplink img {
-    position: relative;
-    height: 100px;
-    width:100px;
-    left:36%;
-  }
-  .Popuplink .popuptext {
-      padding-top: 15px;
-      line-height: 20px;
-      visibility: hidden;
-      width: 300px;
-      height:340px;
-      background-color:rgb(214, 180, 139);
-      color: white;
-      font-size: 20px;
-      text-align: center;
-      border:3px solid white;
-      border-radius: 6px;
-      padding: 5px;
-      top:20vh;
-      left:2vh;
-      position: absolute;
-      margin:0 auto;
-      z-index: 2;
-  }
-  /* Toggle this class - hide and show the popup */
-  .Popuplink .show {
-      visibility: visible;
-      -webkit-animation: fadeIn 1s;
-      animation: fadeIn 1s;
-  }
-
-  /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-  }
-
-  @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity:1 ;}
-  }
-
-    .enterLinks {
-      height: 350px;
-      width: 350px;
-      top: 10vh;
-    }
-    .enterlinks a{
-      font-size: 20px;
-    }
-    #year1938 a{
-      top:45px;
-      left:23px;
-    }
-    #year1938 img{
-      height:162px;
-      width:162px;
-    }
-    #year1946 a{
-      top:45px;
-      left:215px;
-    }
-    #year1946 img{
-      height:162px;
-      width:162px;
-    }
-    #year1965 a{
-      top:225px;
-      left:23px;
-    }
-    #year1965 img{
-      top:187px;
-      height:162px;
-      width:162px;
-    }
-    #year1972 a{
-      top:225px;
-      left:215px;
-    }
-    #year1972 img{
-      top:187px;
-      height:162px;
-      width:162px;
-    }
-}
-
-@media screen and (min-width: 620px) and (max-width: 750px) {
-    .enterLinks {
-      height: 350px;
-      width: 350px;
-      top: 1vh;
-    }
-    #year1938 a{
-      top:45px;
-      left:25px;
-    }
-    #year1938 img{
-      height:165px;
-      width:165px;
-    }
-    #year1946 a{
-      top:45px;
-      left:215px;
-    }
-    #year1946 img{
-      height:165px;
-      width:165px;
-    }
-    #year1965 a{
-      top:225px;
-      left:25px;
-    }
-    #year1965 img{
-      top:185px;
-      height:165px;
-      width:165px;
-    }
-    #year1972 a{
-      top:225px;
-      left:215px;
-    }
-    #year1972 img{
-      top:185px;
-      height:165px;
-      width:165px;
-    }
-}
 
 /* 1938 */
 .navigation-bar {
