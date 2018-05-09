@@ -1,4 +1,3 @@
-element.addEventListener("click", myFunction)
 
 function myFunction() {
     var Popuplink = document.getElementById("myPopup");
@@ -13,14 +12,4 @@ function Play1938(){
 }
 function Pause1938(){
 	Podcast1938.pause();
-}
-
-function onSuccess(position) {
-  console.log(position)
-}
-
-if (pos.coords.latitude > 40.726471 && pos.coords.latitude < 40.726775 && pos.coords.longitude < -73.977795 && pos.coords.longitude > -73.9783193) {
-    document.getElementById("txt1938").style.Color = "red"
-} else {
-    document.getElementById("txt1938").style.Color = "white"
 }

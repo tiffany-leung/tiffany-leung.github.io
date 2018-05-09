@@ -232,31 +232,40 @@ body {
   z-index:-1;
 }
 
-.layout1938 audio{
+/* .layout1938 audio{
   position:absolute;
   display: relative;
   left: 25vw;
   top: 22vh;
   z-index: 3;
-}
-
-/* #play img{
-  position:absolute;
-  width: 150px;
-  height: 155px;
-  top: 19vh;
-  left: 15vw;
-  z-index:2;
-}
-
-#pause img {
-  position:absolute;
-  width: 150px;
-  height: 155px;
-  top: 19vh;
-  left: 60vw;
-  z-index:2;
 } */
+
+#play {
+  position:absolute;
+  width: 150px;
+  height: 155px;
+  top: 19vh;
+  left: 12vw;
+  z-index:4;
+  color: white;
+  border:none;
+  font-family:"Futura",Helvetica,sans-serif;
+  font-size: 45px;
+}
+
+#pause {
+  position:absolute;
+  display:inline;
+  width: 150px;
+  height: 155px;
+  top: 19vh;
+  left: 55vw;
+  z-index:4;
+  color: white;
+  border: none;
+  font-family:"Futura",Helvetica,sans-serif;
+  font-size: 45px;
+}
 
 #audio1938 {
   position: absolute;
