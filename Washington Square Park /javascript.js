@@ -5,11 +5,28 @@ function myFunction() {
 }
 
 
-var Podcast1938 = new Audio();
-  Podcast1938.src = "Mackenzie.mp3";
+var Audio1 = document.getElementById("Audio1");
 function Play1938(){
-  Podcast1938.play();
+  Audio1.play();
+  console.log("play");
 }
 function Pause1938(){
-	Podcast1938.pause();
+	Audio1.pause();
+  console.log("pause");
+}
+
+var Audio2 = document.getElementById("Audio2");
+function Play1946(){
+  Audio2.play();
+}
+function Pause1946(){
+	Audio2.pause();
+}
+
+var Audio3 = document.getElementById("Audio3");
+function Play1965(){
+  Audio3.play();
+}
+function Pause1965(){
+	Audio3.pause();
 }
