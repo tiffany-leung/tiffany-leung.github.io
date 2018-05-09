@@ -189,6 +189,7 @@ body {
 
 
 /* 1938 */
+
 .navigation-bar {
   position:relative;
   display:block;
@@ -231,6 +232,32 @@ body {
   z-index:-1;
 }
 
+.layout1938 audio{
+  position:absolute;
+  display: relative;
+  left: 25vw;
+  top: 22vh;
+  z-index: 3;
+}
+
+/* #play img{
+  position:absolute;
+  width: 150px;
+  height: 155px;
+  top: 19vh;
+  left: 15vw;
+  z-index:2;
+}
+
+#pause img {
+  position:absolute;
+  width: 150px;
+  height: 155px;
+  top: 19vh;
+  left: 60vw;
+  z-index:2;
+} */
+
 #audio1938 {
   position: absolute;
   display:inline;
@@ -239,7 +266,7 @@ body {
   border-radius: 100%;
   left: 6vh;
 }
-#audio1938 img{
+#RPM {
   position: absolute;
   display:inline;
   width: 800px;
@@ -255,12 +282,14 @@ body {
   height: 800px;
   text-align: left;
   top:40vh;
+  color:white;
 }
 #txt1938 h1 {
   position: relative;
   display: inline;
   font-size: 300px;
   line-height: 100px;
+
 }
 #txt1938 p {
   position: relative;
@@ -331,7 +360,7 @@ body {
   height:150px;
 }
 
-.layout1938 {
+.layout1946 {
   position:relative;
   margin: 0 auto;
   width: 100vw;
@@ -339,6 +368,7 @@ body {
   top: 100px;
   color: white;
   z-index:-1;
+  color: white;
 }
 
 #audio1946 {
