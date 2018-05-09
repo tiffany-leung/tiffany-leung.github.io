@@ -232,14 +232,6 @@ body {
   z-index:1;
 }
 
-/* .layout1938 audio{
-  position:absolute;
-  display: relative;
-  left: 25vw;
-  top: 22vh;
-  z-index: 3;
-} */
-
 #play38 {
   position:absolute;
   width: 150px;
@@ -311,7 +303,7 @@ body {
   left:5vw;
 }
 #map1938 {
-  position: absolute;
+  position:absolute;
   display:block;
   width: 98vw;
   height: 700px;
