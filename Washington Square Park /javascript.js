@@ -30,3 +30,11 @@ function Play1965(){
 function Pause1965(){
 	Audio3.pause();
 }
+
+var Audio4 = document.getElementById("Audio4");
+function Play1979(){
+  Audio4.play();
+}
+function Pause1979(){
+	Audio4.pause();
+}
