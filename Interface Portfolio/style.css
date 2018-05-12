@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(188, 255, 239);
+  color: rgb(130, 107, 81);
+}
+
+h1 {
+  position: relative;
+  display:run-in;
+  font-size: 60px;
+  margin: auto 0;
+}
+.links {
+  position:relative;
+  display:block;
+  font-size: 40px;
+  margin: auto 0;
+}
+.links a {
+  position:relative;
+  display:block;
+  font-size: 40px;
+  margin: auto 0;
+  color:rgb(130, 107, 81);
+}
