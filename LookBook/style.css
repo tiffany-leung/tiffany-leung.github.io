@@ -6,7 +6,7 @@
 body {
   background-color: rgb(255, 252, 242);
   color: black;
-  font-family: 'Futura-Book',Helvetica, sans-serif;
+  font-family: 'Futura-Book','Futura', Helvetica, sans-serif;
   font-weight: lighter;
 }
 .Start h1 {
