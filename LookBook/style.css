@@ -1,0 +1,256 @@
+@font-face {
+  font-family: 'Futura-Book';
+  src: url('FuturaStd-Book.otf');
+}
+
+body {
+  background-color: rgb(255, 252, 242);
+  color: black;
+  font-family: 'Futura-Book',Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.Start h1 {
+  position: relative;
+  display: inline;
+  top: -20vh;
+  left:32vw;
+  font-size: 40px;
+}
+.Start img{
+  position:relative;
+  display:inline;
+  height: 300px;
+  width: 250px;
+  left:2vw;
+  top:30vh;
+}
+
+.Categories img{
+  position:absolute;
+  display: inline;
+  filter: grayscale(100%);
+}
+#Cat1 h1 {
+  position:absolute;
+  display: inline;
+  color: white;
+  font-size: 40px;
+  width:300px;
+  left: 25vw;
+  top: 70vh;
+  z-index: 1;
+  font-weight: lighter;
+}
+#Cat1 img{
+  position:absolute;
+  display: inline;
+  height: 400px;
+  width: 300px;
+  left: 25vw;
+  top: 25vh;
+}
+#Cat1 img:hover {
+  z-index: 4;
+  height:500px;
+  width:400px;
+  filter: grayscale(0%);
+}
+
+
+#Cat2 h1 {
+  position:absolute;
+  display: inline;
+  color: white;
+  font-size: 40px;
+  width:300px;
+  left: 47vw;
+  top: 62vh;
+  z-index: 3;
+  font-weight: lighter;
+}
+#Cat2 img{
+  position:absolute;
+  display: inline;
+  height: 300px;
+  width: 400px;
+  transform: rotate(-90deg);
+  left: 40vw;
+  top: 25vh;
+  z-index: 2;
+}
+#Cat2 img:hover {
+  height:400px;
+  width:500px;
+  z-index: 4;
+  filter: grayscale(0%);
+}
+
+/* GalleryOne */
+.homebutton img{
+  position:absolute;
+  display: inline;
+  height: 80px;
+  width: 50px;
+  left: 2vh;
+  top: 2vh;
+}
+#CloseUp1 img {
+  position:absolute;
+  display: inline;
+  height: 200px;
+  width: 150px;
+  left: 35vw;
+  top: 25vh;
+  filter: grayscale(100%);
+}
+#CloseUp1 img:hover {
+  position:absolute;
+  display: inline;
+  height: 600px;
+  width: 500px;
+  left: 30vw;
+  top: 10vh;
+  filter: grayscale(0%);
+  z-index: 2;
+}
+
+#CloseUp2 img {
+  position:absolute;
+  display: inline;
+  height: 200px;
+  width: 150px;
+  left: 45vw;
+  top: 35vh;
+  filter: grayscale(100%);
+}
+#CloseUp2 img:hover {
+  position:absolute;
+  display: inline;
+  height: 600px;
+  width: 500px;
+  left: 30vw;
+  top: 10vh;
+  filter: grayscale(0%);
+  z-index: 2;
+}
+
+#CloseUp3 img {
+  position:absolute;
+  display: inline;
+  height: 200px;
+  width: 150px;
+  left: 55vw;
+  top: 45vh;
+  filter: grayscale(100%);
+}
+#CloseUp3 img:hover {
+  position:absolute;
+  display: inline;
+  height: 620px;
+  width: 500px;
+  left: 30vw;
+  top: 10vh;
+  filter: grayscale(0%);
+  z-index: 2;
+}
+
+/* GalleryTwo */
+#Detail1 img {
+  position:absolute;
+  display: inline;
+  height: 200px;
+  width: 150px;
+  left: 25vw;
+  top: 15vh;
+  filter: grayscale(100%);
+}
+#Detail1 img:hover {
+  position:absolute;
+  display: inline;
+  height: 600px;
+  width: 400px;
+  left: 30vw;
+  top: 10vh;
+  filter: grayscale(0%);
+  z-index: 2;
+}
+#Detail2 img {
+  position:absolute;
+  display: inline;
+  height: 200px;
+  width: 200px;
+  left: 30vw;
+  top: 20vh;
+  filter: grayscale(100%);
+}
+#Detail2 img:hover {
+  position:absolute;
+  display: inline;
+  height: 600px;
+  width: 750px;
+  left: 20vw;
+  top: 10vh;
+  filter: grayscale(0%);
+  z-index: 2;
+}
+#Detail3 img {
+  position:absolute;
+  display: inline;
+  height: 150px;
+  width: 200px;
+  left: 37vw;
+  top: 32vh;
+  transform: rotate(-90deg);
+  filter: grayscale(100%);
+}
+#Detail3 img:hover {
+  position:absolute;
+  display: inline;
+  height: 420px;
+  width: 600px;
+  left: 30vw;
+  top: 20vh;
+  transform: rotate(-90deg);
+  filter: grayscale(0%);
+  z-index: 2;
+}
+#Detail4 img {
+  position:absolute;
+  display: inline;
+  height: 150px;
+  width: 200px;
+  left: 45vw;
+  top: 40vh;
+  transform: rotate(-90deg);
+  filter: grayscale(100%);
+}
+#Detail4 img:hover {
+  position:absolute;
+  display: inline;
+  height: 480px;
+  width: 600px;
+  left: 28vw;
+  top: 20vh;
+  transform: rotate(-90deg);
+  filter: grayscale(0%);
+  z-index: 2;
+}
+#Detail5 img {
+  position:absolute;
+  display: inline;
+  height: 200px;
+  width: 150px;
+  left: 55vw;
+  top: 45vh;
+  filter: grayscale(100%);
+}
+#Detail5 img:hover {
+  position:absolute;
+  display: inline;
+  height: 600px;
+  width: 500px;
+  left: 30vw;
+  top: 10vh;
+  filter: grayscale(0%);
+  z-index: 2;
+}
